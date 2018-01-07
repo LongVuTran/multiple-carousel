@@ -5,5 +5,5 @@
   //   });   
   
   $('#carousel-example-generic').carousel({
-  interval: 3000
+  interval: 1000
 })
