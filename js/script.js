@@ -1,0 +1,9 @@
+  // $('#carousel-example-generic').on('slid.bs.carousel', function () {
+  //       $(".carousel-item.active:nth-child(" + ($(".carousel-inner .carousel-item").length -1) + ") 
+  //         + .carousel-item").insertBefore($(".carousel-item:first-child"));
+  //       $(".carousel-item.active:last-child").insertBefore($(".carousel-item:first-child"));
+  //   });   
+  
+  $('#carousel-example-generic').carousel({
+  interval: 3000
+})

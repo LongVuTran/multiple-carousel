@@ -1,0 +1,7 @@
+ .carousel-item.active,
+        .carousel-item.active + .carousel-item,
+        .carousel-item.active + .carousel-item  + .carousel-item {
+           width: 33.3%;
+           display: block;
+           float:left;
+        }  
